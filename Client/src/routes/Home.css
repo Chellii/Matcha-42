@@ -1,0 +1,68 @@
+.home {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 96vh;
+}
+
+button {
+    display: hidden;
+}
+
+.div-img {
+    position: relative;
+    z-index: 1;
+}
+
+.main-paragraph {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inside-paragraph {
+    align-self: center;
+}
+
+.title-h1 {
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title-span {
+    background-color: rgba(126, 6, 0, 0.5);
+}
+
+.paragraph {
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+
+@media only screen and (max-width:750px) {
+    .main-paragraph {
+        z-index: 5;
+        position: absolute;
+        top: 40%;
+        left: 20%; 
+        right: 20%;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
